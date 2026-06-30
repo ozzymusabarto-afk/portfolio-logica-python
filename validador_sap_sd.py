@@ -2,7 +2,6 @@
 # PROJECT: AUTOMATED SALES ORDER VALIDATOR (SAP SD CONCEPT)
 # PROJETO: VALIDADOR AUTOMATIZADO DE ORDEM DE VENDA (CONCEITO SAP SD)
 # ====================================================================
-# Desenvolvido por: Adriana Martins
 # Objetivo: Simular a inteligência funcional da transação VA01 no SAP,
 # avaliando a integridade do pedido antes do faturamento.
 
@@ -13,7 +12,7 @@ documento_venda = "OV-2026-001"
 material = "PECA-MOTO-04"
 quantidade_pedido = 8
 estoque_disponivel = 15
-preco_unitario = 35.00        # Valor em Euros/Reais
+preco_unitario = 35.00        
 limite_credito_cliente = 250.00
 
 # 2. PROCESSAMENTO (Operadores Aritméticos e Lógicos)
